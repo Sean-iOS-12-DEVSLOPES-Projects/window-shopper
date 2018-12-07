@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		983A1A0221BB077600CA9C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A1A0121BB077600CA9C91 /* AppDelegate.swift */; };
-		983A1A0421BB077600CA9C91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A1A0321BB077600CA9C91 /* ViewController.swift */; };
+		983A1A0421BB077600CA9C91 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A1A0321BB077600CA9C91 /* MainVC.swift */; };
 		983A1A0721BB077600CA9C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983A1A0521BB077600CA9C91 /* Main.storyboard */; };
 		983A1A0921BB077600CA9C91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983A1A0821BB077600CA9C91 /* Assets.xcassets */; };
 		983A1A0C21BB077600CA9C91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983A1A0A21BB077600CA9C91 /* LaunchScreen.storyboard */; };
 		983A1A1721BB077700CA9C91 /* window_shopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A1A1621BB077700CA9C91 /* window_shopperTests.swift */; };
 		983A1A2221BB077700CA9C91 /* window_shopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A1A2121BB077700CA9C91 /* window_shopperUITests.swift */; };
+		983A1A3221BB0C0600CA9C91 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A1A3121BB0C0600CA9C91 /* CurrencyTxtField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		983A19FE21BB077600CA9C91 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		983A1A0121BB077600CA9C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		983A1A0321BB077600CA9C91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		983A1A0321BB077600CA9C91 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		983A1A0621BB077600CA9C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		983A1A0821BB077600CA9C91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		983A1A0B21BB077600CA9C91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		983A1A1D21BB077700CA9C91 /* window-shopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "window-shopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		983A1A2121BB077700CA9C91 /* window_shopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = window_shopperUITests.swift; sourceTree = "<group>"; };
 		983A1A2321BB077700CA9C91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		983A1A3121BB0C0600CA9C91 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 		983A1A0021BB077600CA9C91 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				983A1A3021BB0BDA00CA9C91 /* Views */,
+				983A1A2F21BB0AB500CA9C91 /* Controller */,
 				983A1A0121BB077600CA9C91 /* AppDelegate.swift */,
-				983A1A0321BB077600CA9C91 /* ViewController.swift */,
 				983A1A0521BB077600CA9C91 /* Main.storyboard */,
 				983A1A0821BB077600CA9C91 /* Assets.xcassets */,
 				983A1A0A21BB077600CA9C91 /* LaunchScreen.storyboard */,
@@ -123,6 +126,22 @@
 				983A1A2321BB077700CA9C91 /* Info.plist */,
 			);
 			path = "window-shopperUITests";
+			sourceTree = "<group>";
+		};
+		983A1A2F21BB0AB500CA9C91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				983A1A0321BB077600CA9C91 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		983A1A3021BB0BDA00CA9C91 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				983A1A3121BB0C0600CA9C91 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				983A1A0421BB077600CA9C91 /* ViewController.swift in Sources */,
+				983A1A3221BB0C0600CA9C91 /* CurrencyTxtField.swift in Sources */,
+				983A1A0421BB077600CA9C91 /* MainVC.swift in Sources */,
 				983A1A0221BB077600CA9C91 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
