@@ -53,9 +53,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hours" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pME-Xp-aXx">
-                                <rect key="frame" x="137.5" y="367.5" width="100" height="25"/>
+                                <rect key="frame" x="20" y="367.5" width="335" height="25"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="8Yk-dj-2sb"/>
                                     <constraint firstAttribute="height" constant="25" id="M84-HN-kbN"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -90,6 +89,7 @@
                             <constraint firstItem="sVB-kj-YwL" firstAttribute="height" secondItem="YqZ-6q-95G" secondAttribute="height" id="Tb8-Lp-M66"/>
                             <constraint firstItem="zff-Ue-Wkb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="V9f-8g-73k"/>
                             <constraint firstItem="zff-Ue-Wkb" firstAttribute="top" secondItem="sVB-kj-YwL" secondAttribute="bottom" constant="45" id="Viu-Yu-ZQY"/>
+                            <constraint firstItem="pME-Xp-aXx" firstAttribute="width" secondItem="sVB-kj-YwL" secondAttribute="width" id="Ywe-ff-jWx"/>
                             <constraint firstItem="sVB-kj-YwL" firstAttribute="leading" secondItem="YqZ-6q-95G" secondAttribute="leading" id="aqs-0A-4fE"/>
                             <constraint firstItem="oUn-TC-BoH" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="ast-Y5-Kzd"/>
                             <constraint firstItem="k8S-EB-LYv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="e3x-3y-pEg"/>
