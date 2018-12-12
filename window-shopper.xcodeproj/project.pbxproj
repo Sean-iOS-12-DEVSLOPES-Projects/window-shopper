@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9800F0B921C17370002552AB /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800F0B821C17370002552AB /* Wage.swift */; };
+		9800F0BA21C174D7002552AB /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9800F0B821C17370002552AB /* Wage.swift */; };
 		983A1A0221BB077600CA9C91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A1A0121BB077600CA9C91 /* AppDelegate.swift */; };
 		983A1A0421BB077600CA9C91 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 983A1A0321BB077600CA9C91 /* MainVC.swift */; };
 		983A1A0721BB077600CA9C91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 983A1A0521BB077600CA9C91 /* Main.storyboard */; };
@@ -35,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9800F0B821C17370002552AB /* Wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
 		983A19FE21BB077600CA9C91 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		983A1A0121BB077600CA9C91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		983A1A0321BB077600CA9C91 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -76,6 +79,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9800F0B721C172EA002552AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9800F0B821C17370002552AB /* Wage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		983A19F521BB077600CA9C91 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +110,7 @@
 		983A1A0021BB077600CA9C91 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				9800F0B721C172EA002552AB /* Model */,
 				983A1A3021BB0BDA00CA9C91 /* Views */,
 				983A1A2F21BB0AB500CA9C91 /* Controller */,
 				983A1A0121BB077600CA9C91 /* AppDelegate.swift */,
@@ -276,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983A1A3221BB0C0600CA9C91 /* CurrencyTxtField.swift in Sources */,
+				9800F0B921C17370002552AB /* Wage.swift in Sources */,
 				983A1A0421BB077600CA9C91 /* MainVC.swift in Sources */,
 				983A1A0221BB077600CA9C91 /* AppDelegate.swift in Sources */,
 			);
@@ -286,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				983A1A1721BB077700CA9C91 /* window_shopperTests.swift in Sources */,
+				9800F0BA21C174D7002552AB /* Wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
